@@ -1,0 +1,12 @@
+syntax = "proto3";
+package protobuf;
+option go_package = "pb/protobuf";
+
+message KVRequest {
+    uint32 command = 1;
+    bytes key = 2;
+    bytes value = 3;
+    int32 version = 4;
+    bytes addr = 5;
+    int32 check = 6;
+}

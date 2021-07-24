@@ -1,0 +1,14 @@
+syntax = "proto3";
+package protobuf;
+option go_package = "pb/protobuf";
+
+message KVResponse {
+    uint32 errCode = 1;
+    bytes value = 2;
+    int32 pid = 3;
+    int32 version = 4;
+    int32 overloadWaitTime = 5;
+    int32 membershipCount = 6;
+    map<string, bytes> nodeList = 7;
+    int32 check = 8;
+}

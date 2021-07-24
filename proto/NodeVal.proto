@@ -1,0 +1,11 @@
+syntax = "proto3";
+package protobuf;
+option go_package = "pb/protobuf";
+
+message NodeVal {
+  string ipAdr = 1;
+  string port = 2;
+  bool isOn = 3;
+  string membership = 4;
+  uint64 time = 5;
+}

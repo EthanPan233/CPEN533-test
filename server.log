@@ -1,0 +1,77 @@
+2021/07/20 14:31:16 This is a test log entry
+2021/07/20 14:31:16 Server start
+2021/07/20 14:31:16 Local IP: 172.18.209.146
+2021/07/20 14:31:16 10.168.0.3:3333
+2021/07/20 14:31:16 Initialize node: 10.168.0.3:3333
+2021/07/20 14:31:16 10.168.0.4:3333
+2021/07/20 14:31:16 Initialize node: 10.168.0.4:3333
+2021/07/20 14:31:16 10.168.0.5:3333
+2021/07/20 14:31:16 Initialize node: 10.168.0.5:3333
+2021/07/20 14:31:16 10.168.0.6:3333
+2021/07/20 14:31:16 Initialize node: 10.168.0.6:3333
+2021/07/20 14:31:16   file read ok!
+2021/07/20 14:31:16 Now say hello to 10.168.0.4:3333
+2021/07/20 14:31:16 Now listening to port for replicate request
+2021/07/20 14:31:16 Now say hello to 10.168.0.5:3333
+2021/07/20 14:31:16 Now say hello to 10.168.0.6:3333
+2021/07/20 14:31:16 Now say hello to 10.168.0.3:3333
+2021/07/20 14:31:19 Port # 3333, Start gossiping
+2021/07/20 14:31:19 The number of gossip targets is: 4
+2021/07/20 14:31:19 The length of active node list is: 4
+2021/07/20 14:31:22 Port # 3333, Start gossiping
+2021/07/20 14:31:22 The number of gossip targets is: 4
+2021/07/20 14:31:22 The length of active node list is: 4
+2021/07/20 14:31:25 Port # 3333, Start gossiping
+2021/07/20 14:31:25 The number of gossip targets is: 4
+2021/07/20 14:31:25 The length of active node list is: 4
+2021/07/20 14:31:28 Port # 3333, Start gossiping
+2021/07/20 14:31:28 The number of gossip targets is: 4
+2021/07/20 14:31:28 The length of active node list is: 4
+2021/07/20 14:31:28 retry  0 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:29 retry  1 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:29 retry  2 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:30 retry  3 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:30 gossip just failed, check if the target node is on: true
+2021/07/20 14:31:30 Turn off 10.168.0.3:3333 from node list. 172.18.209.146 3333
+2021/07/20 14:31:30 10.168.0.3, Gossip failed, now remove 3333:%!v(MISSING) from current node list.
+2021/07/20 14:31:30 start handling request
+2021/07/20 14:31:30 [0 0 0 0 5 13 18 251 200 252 248 23 41 157 147 22]
+2021/07/20 14:31:30 sender IP: 0.0.0.0 : 3333
+2021/07/20 14:31:30 command: 48
+2021/07/20 14:31:30 All gossip the retries fail
+2021/07/20 14:31:31 Port # 3333, Start gossiping
+2021/07/20 14:31:31 The number of gossip targets is: 3
+2021/07/20 14:31:31 The length of active node list is: 3
+2021/07/20 14:31:31 retry  0 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:32 retry  1 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:32 retry  2 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:33 retry  3 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:33 gossip just failed, check if the target node is on: true
+2021/07/20 14:31:33 Turn off 10.168.0.4:3333 from node list. 172.18.209.146 3333
+2021/07/20 14:31:33 10.168.0.4, Gossip failed, now remove 3333:%!v(MISSING) from current node list.
+2021/07/20 14:31:33 All gossip the retries fail
+2021/07/20 14:31:33 start handling request
+2021/07/20 14:31:33 [0 0 0 0 5 13 243 10 96 226 209 202 41 157 147 22]
+2021/07/20 14:31:33 sender IP: 0.0.0.0 : 3333
+2021/07/20 14:31:33 command: 48
+2021/07/20 14:31:34 Port # 3333, Start gossiping
+2021/07/20 14:31:34 The number of gossip targets is: 2
+2021/07/20 14:31:34 The length of active node list is: 2
+2021/07/20 14:31:34 retry  0 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:35 retry  1 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:35 retry  2 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:36 retry  3 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:36 gossip just failed, check if the target node is on: true
+2021/07/20 14:31:36 Turn off 10.168.0.5:3333 from node list. 172.18.209.146 3333
+2021/07/20 14:31:36 10.168.0.5, Gossip failed, now remove 3333:%!v(MISSING) from current node list.
+2021/07/20 14:31:36 All gossip the retries fail
+2021/07/20 14:31:36 start handling request
+2021/07/20 14:31:36 [0 0 0 0 5 13 249 202 104 226 182 125 42 157 147 22]
+2021/07/20 14:31:36 sender IP: 0.0.0.0 : 3333
+2021/07/20 14:31:36 command: 48
+2021/07/20 14:31:37 Port # 3333, Start gossiping
+2021/07/20 14:31:37 The number of gossip targets is: 1
+2021/07/20 14:31:37 The length of active node list is: 1
+2021/07/20 14:31:37 retry  0 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:38 retry  1 : sendReqAndGetRes readFrom error!
+2021/07/20 14:31:38 retry  2 : sendReqAndGetRes readFrom error!

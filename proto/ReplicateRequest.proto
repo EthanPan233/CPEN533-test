@@ -1,0 +1,16 @@
+syntax = "proto3";
+package protobuf;
+option go_package = "pb/protobuf";
+
+message RepRequest{
+    uint32 command = 1;
+
+    message KVPair{
+      bytes key = 1;
+      bytes value = 2;
+      int32 version = 3;
+    }
+
+    repeated KVPair kvs = 2;
+    int32 check = 3;
+}
